@@ -31,6 +31,26 @@ body {
   color: rgb(97, 97, 97);
 }
 
+.text-orange {
+  color: #FF9500;
+}
+
+.card1 {
+  background-color: #FEF6EB !important;
+}
+
+.card2 {
+  background-color: #FEF6EB;
+}
+
+.card3 {
+  background-color: #FEF6EB;
+}
+
+.card4 {
+  background-color: #FEF6EB;
+}
+
 .btn-primary2 {
   border-radius: 8px;
   padding: 12px;
@@ -133,6 +153,27 @@ body {
 .video-hold .btn-primary3:hover {
   background-color: #FF9500;
   color: white;
+}
+
+.tech-skill {
+  margin-top: 350px;
+  padding: 20px;
+}
+
+#service .card {
+  border: none;
+  border-radius: 20px;
+  height: 500px;
+}
+#service .card .icon-hold {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 800px) {
