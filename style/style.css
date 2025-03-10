@@ -76,7 +76,7 @@ body {
   width: 100%;
   background: #F3F8FF;
   background: linear-gradient(54deg, #F3F8FF 35%, #FFFAED 100%);
-  height: 80%;
+  height: 85%;
 }
 #hero-section .the-hero {
   margin-top: 60px;
@@ -104,4 +104,62 @@ body {
 #hero-section .the-hero .call-to-action a {
   justify-content: center;
   align-items: center;
+}
+
+.video-hold {
+  width: 70%;
+  height: 500px;
+  background-color: rgb(232, 232, 232);
+  position: relative;
+  left: 15%;
+  border-radius: 30px;
+  margin-top: 50px;
+  background-image: url(/img/pics1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-hold .btn-primary3 {
+  border-radius: 50px !important;
+  padding: 12px;
+  color: white;
+  border: none;
+  background-color: #FF9500;
+  width: 170px;
+  border-radius: 15px;
+}
+.video-hold .btn-primary3:hover {
+  background-color: #FF9500;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  #hero-section .the-hero {
+    margin-top: 20px;
+  }
+  #hero-section .the-hero .prompt-text {
+    width: 100%;
+    left: 0%;
+    scale: 0.8;
+  }
+  #hero-section .the-hero .prompt-text .div {
+    font-size: 12px !important;
+  }
+  #hero-section .the-hero .prompt-text span {
+    font-size: 12px;
+  }
+  #hero-section .the-hero .hero-text {
+    font-size: 14px;
+  }
+  .video-hold {
+    width: 90%;
+    left: 5%;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .video-hold .btn-primary3 {
+    scale: 0.8;
+  }
 }/*# sourceMappingURL=style.css.map */
