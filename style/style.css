@@ -40,15 +40,15 @@ body {
 }
 
 .card2 {
-  background-color: #FEF6EB;
+  background-color: #fff;
 }
 
 .card3 {
-  background-color: #FEF6EB;
+  background-color: #FFEBF5;
 }
 
 .card4 {
-  background-color: #FEF6EB;
+  background-color: #EBFFF7;
 }
 
 .btn-primary2 {
@@ -181,8 +181,23 @@ body {
   background-size: cover;
   height: 400px;
 }
+#service .card-img1 .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+#service .card-img1 .overlay img {
+  scale: 0.8;
+}
 
 @media screen and (max-width: 800px) {
+  .tech-skill {
+    margin-top: 250px;
+  }
   #hero-section .the-hero {
     margin-top: 20px;
   }
