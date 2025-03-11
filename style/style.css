@@ -194,6 +194,126 @@ body {
   scale: 0.8;
 }
 
+/* CSS CODE FOR TESTIMONIALS STARTS HERE*/
+.testimonials-container {
+  display: flex;
+  gap: 32px;
+  max-width: 1200px;
+  margin-inline: auto;
+  height: 500px;
+  width: 100%;
+  padding: 24px;
+}
+
+.column {
+  height: 100%;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+          mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.column:hover .testimonials {
+  animation-play-state: paused;
+}
+
+.cardi {
+  background: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(122, 122, 122, 0.1);
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.cardi .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -o-object-fit: cove;
+     object-fit: cove;
+}
+
+.cardi .profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cardi .profile .name {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.cardi .profile .role {
+  font-size: 14px;
+  color: #666;
+}
+
+.cardi .content {
+  color: #444;
+  line-height: 1.5;
+}
+
+.column:nth-child(1) .testimonials {
+  animation-name: scrollUp;
+  animation-duration: 23s;
+}
+
+.column:nth-child(2) .testimonials {
+  animation-name: scrollDown;
+  animation-duration: 50s;
+}
+
+.column:nth-child(3) .testimonials {
+  animation-name: scrollUp;
+  animation-duration: 30s;
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+@keyframes scrollDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .testimonials-container {
+    gap: 16px;
+    padding: 16px;
+  }
+  .column:nth-child(3) {
+    display: none;
+  }
+  .column:hover .testimonials {
+    animation-play-state: running;
+  }
+}
+@media (max-width: 640px) {
+  .column {
+    display: none;
+  }
+  .column:first-child {
+    display: block;
+  }
+}
+/* CSS FOR TESTIMONIALS ENDS HERE*/
 @media screen and (max-width: 800px) {
   .tech-skill {
     margin-top: 250px;
