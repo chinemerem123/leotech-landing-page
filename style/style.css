@@ -314,6 +314,22 @@ body {
   }
 }
 /* CSS FOR TESTIMONIALS ENDS HERE*/
+.newsletter {
+  background-color: #FAFAFA;
+  border-radius: 20px;
+}
+.newsletter .letter-hold {
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+.newsletter .letter-hold input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
 @media screen and (max-width: 800px) {
   .tech-skill {
     margin-top: 250px;
