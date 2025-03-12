@@ -347,21 +347,58 @@ body {
   border: none;
   border-radius: 20px;
 }
-.cards-3 .card3 {
+.cards-3 .card4 {
+  margin-top: 25px;
+}
+.cards-3 .cardii {
   height: 235px;
 }
-.cards-3 .card3 .icon-hold {
+.cards-3 .cardii .hold-icon {
   width: 70px;
-  height: 70px !important;
+  height: 70px;
   background-color: #fff;
+  border-radius: 100px;
+  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+.cards-3 .cardii .hold-icon img {
+  width: 35px;
+}
+
+.banner-section {
+  height: 400px;
+  background-image: url(/img/banner.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.banner-section img {
+  width: 550px;
+  position: relative;
+  margin-top: 10px;
+  left: calc(50% - 275px);
 }
 
 @media screen and (max-width: 800px) {
+  .banner-section {
+    height: 550px;
+  }
+  .banner-section img {
+    width: 400px;
+    left: calc(50% - 200px);
+    margin-top: 50px;
+  }
+  .cards-3 .card3 {
+    margin-top: 20px;
+  }
+  .cards-3 .cardii {
+    height: 250px;
+  }
   .tech-skill {
-    margin-top: 250px;
+    margin-top: 270px;
   }
   #hero-section .the-hero {
     margin-top: 20px;

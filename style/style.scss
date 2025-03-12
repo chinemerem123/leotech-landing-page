@@ -392,25 +392,69 @@ body{
 
         }
 
-        .card3{
-            height: 235px;
-
-            .icon-hold{
-                width: 70px;
-                height: 70px !important;
-                // border-radius:;
-                background-color: #fff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+        .card4{
+          margin-top: 25px;
         }
+
+        .cardii{
+            height: 235px;
+            .hold-icon{
+              width: 70px;
+              height: 70px;
+              background-color: #fff;
+              border-radius: 100px;
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img{
+                width: 35px;
+              }
+            }
+          
+        }
+    }
+
+    .banner-section{
+      height: 400px;
+      background-image: url(/img/banner.png);
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+
+      img{
+        width: 550px;
+        position: relative;
+        margin-top: 10px;
+        left: calc(50% - 275px);
+      }
     }
 
     @media screen and (max-width:800px){
 
+      .banner-section{
+        height: 550px;
+
+        img{
+          width: 400px;
+          left: calc(50% - 200px);
+          margin-top: 50px;
+        }
+      }
+
+      .cards-3{
+        .card3{
+          margin-top: 20px;
+        }
+        .cardii{
+          height: 250px;
+        }
+      }
+
         .tech-skill{
-            margin-top: 250px;
+            margin-top: 270px;
         }
 
         #hero-section{
