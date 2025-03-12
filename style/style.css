@@ -330,6 +330,35 @@ body {
   outline: none;
 }
 
+.cards-3 .card1 {
+  height: 500px;
+}
+.cards-3 .card1 .icon-hold {
+  margin-top: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-3 .card {
+  border: none;
+  border-radius: 20px;
+}
+.cards-3 .card3 {
+  height: 235px;
+}
+.cards-3 .card3 .icon-hold {
+  width: 70px;
+  height: 70px !important;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 800px) {
   .tech-skill {
     margin-top: 250px;

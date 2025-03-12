@@ -368,6 +368,45 @@ body{
         }
     }
 
+    .cards-3{
+
+        .card1{
+            height: 500px;
+
+            .icon-hold{
+                margin-top: 40px;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+        .card{
+            border: none;
+            border-radius: 20px;
+
+        }
+
+        .card3{
+            height: 235px;
+
+            .icon-hold{
+                width: 70px;
+                height: 70px !important;
+                // border-radius:;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
     @media screen and (max-width:800px){
 
         .tech-skill{
