@@ -382,6 +382,12 @@ body {
   left: calc(50% - 275px);
 }
 
+.footer a {
+  text-decoration: none;
+  color: rgb(52, 52, 52);
+  font-size: 14px;
+}
+
 @media screen and (max-width: 800px) {
   .banner-section {
     height: 550px;
