@@ -440,6 +440,30 @@ body{
       }
     }
 
+    .signup-type{
+      display:flex;
+      align-items: center;
+      border: 1px solid rgb(214, 214, 214);
+      border-radius: 15px;
+      .icon-hold{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(255, 250, 242);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .text-content{
+        color: black;
+
+        p{
+          color: gray;
+        }
+      }
+    }
+
     @media screen and (max-width:800px){
 
       .banner-section{
