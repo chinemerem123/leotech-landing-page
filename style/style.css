@@ -415,6 +415,14 @@ body {
   height: 400px;
 }
 
+#about-me .my-img {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  background-color: rgb(215, 215, 215);
+  border-radius: 15px;
+}
+
 @media screen and (max-width: 800px) {
   .banner-section {
     height: 550px;

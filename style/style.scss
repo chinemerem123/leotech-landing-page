@@ -469,6 +469,17 @@ body{
       height: 400px;
     }
 
+    #about-me{
+      .my-img{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        // left: calc(50% - 250px);
+        background-color: rgb(215, 215, 215);
+        border-radius: 15px;
+      }
+    }
+
     @media screen and (max-width:800px){
 
       .banner-section{
