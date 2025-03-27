@@ -126,6 +126,10 @@ body {
   align-items: center;
 }
 
+.news-hero {
+  height: 40% !important;
+}
+
 .video-hold {
   width: 70%;
   height: 500px;
@@ -425,6 +429,7 @@ body {
 
 #team-hold .card {
   border-radius: 15px;
+  border-color: #e8e8e8;
 }
 #team-hold .card img {
   position: relative;
@@ -433,8 +438,31 @@ body {
   left: calc(50% - 40px);
   border-radius: 50%;
 }
+#team-hold .card .social {
+  align-items: center;
+  justify-content: center;
+}
+
+#blog-post .card {
+  position: relative;
+  border: none;
+  transition: 0.3s;
+  height: 480px;
+}
+#blog-post .card a {
+  text-decoration: none;
+}
+#blog-post .card img {
+  height: 250px;
+  width: 100%;
+}
 
 @media screen and (max-width: 800px) {
+  #about-me .my-img {
+    width: 320px;
+    height: 300px;
+    left: calc(50% - 160px);
+  }
   .banner-section {
     height: 550px;
   }
@@ -450,7 +478,7 @@ body {
     height: 250px;
   }
   .tech-skill {
-    margin-top: 270px;
+    margin-top: 120px;
   }
   #hero-section .the-hero {
     margin-top: 20px;

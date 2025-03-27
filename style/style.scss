@@ -107,6 +107,8 @@ body{
     background: linear-gradient(54deg, #F3F8FF 35%, #FFFAED 100%);
     height: 85%;
 
+  
+
     .the-hero{
         margin-top: 60px;
         .prompt-text{
@@ -136,6 +138,10 @@ body{
             }
         }
     }
+}
+
+.news-hero{
+  height: 40% !important;
 }
 
 .video-hold{
@@ -483,6 +489,7 @@ body{
     #team-hold{
       .card{
         border-radius: 15px;
+        border-color: #e8e8e8;
 
         img{
           position: relative;
@@ -491,11 +498,42 @@ body{
           left: calc(50% - 40px);
           border-radius: 50%;
         }
+
+        .social{
+          align-items: center;
+          justify-content: center;
+        }
+
+     
       }
      
     }
 
+    #blog-post{
+      .card{
+        position: relative;
+        border: none;
+        transition: 0.3s;
+        height: 480px;
+        a{
+          text-decoration: none;
+        }
+        img{
+          height: 250px;
+          width: 100%;
+        }
+      }
+    }
+
     @media screen and (max-width:800px){
+
+      #about-me{
+        .my-img{
+          width: 320px;
+          height: 300px;
+          left: calc(50% - 160px);
+        }
+      }
 
       .banner-section{
         height: 550px;
@@ -517,7 +555,7 @@ body{
       }
 
         .tech-skill{
-            margin-top: 270px;
+            margin-top: 120px;
         }
 
         #hero-section{
