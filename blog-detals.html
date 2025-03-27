@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leotech - News</title>
+    <title>Leotech - News details</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- App favicon -->
@@ -32,7 +32,7 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active fs-14" aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link  fs-14" aria-current="page" href="/index.html">Home</a>
                   </li>
                   <li class="nav-item ms-0 ms-md-4">
                     <a class="nav-link fs-14"  href="#service">Service</a>
@@ -49,7 +49,7 @@
                   </li>
     
                   <li class="nav-item ms-0 ms-md-4">
-                    <a class="nav-link  fs-14" href="/news.html">News</a>
+                    <a class="nav-link  fs-14 active" href="/news.html">News</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -61,21 +61,32 @@
           </nav>
 
           <div class="the-hero text-center" >
-            <div class="h2">News & Blog post</div>
-            <p class="text-gray">Read articles on business tips & updates to the henryleo techlogy platform</p>
+            <div class="type text-orange">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
+            <div class="h2 mt-2">What have happend to all web design ideals</div>
           </div>
 
     </section>
 
-    <section id="blog-post" class="container p-4 p-md-5">
-
-        <div class="h3">All Blog Post</div>
+    <section id="blog-details" class="container p-4 p-md-5">
 
         <div class="row mt-4">
-            <div class="col-md-4 col-sm-12">
-                <div class="card p-0 m-0">
+            <div class="col-md-9 col-sm-12" id="details">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
+                <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga eveniet sed exercitationem temporibus ipsum. Maxime necessitatibus animi velit enim. Nam quam asperiores excepturi aliquam totam enim, est quasi tempore!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores voluptatum quas magni harum ratione iusto possimus officiis neque deleniti consequuntur eaque itaque, ducimus, ipsum quidem. Consectetur placeat possimus debitis necessitatibus.
+                </p>
+
+                <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga eveniet sed exercitationem temporibus ipsum. Maxime necessitatibus animi velit enim. Nam quam asperiores excepturi aliquam totam enim, est quasi tempore!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+                <div class="h6">Other Post</div>
+
+                <div class="card p-0 mt-2">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
-                    <div class="content mt-2">
+                    <div class="content mt-2 p-3">
                         <div class="type text-orange fs-14">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
                         <div class="h5 mt-2"><a href="/blog-detals.html" class="text-dark">What have happend to all web design ideals</a></div>
                         <p class="mt-2 fs-14 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis nostrum, libero vitae quia nihil perferendis consequatur recusandae.</p>
@@ -83,12 +94,10 @@
                         <a href="/blog-detals.html" class="text-orange">Read more</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 col-sm-12 mt-2 mt-md-0">
-                <div class="card p-0 m-0">
+                <div class="card p-0 mt-2">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
-                    <div class="content mt-2">
+                    <div class="content mt-2 p-3">
                         <div class="type text-orange fs-14">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
                         <div class="h5 mt-2"><a href="/blog-detals.html" class="text-dark">What have happend to all web design ideals</a></div>
                         <p class="mt-2 fs-14 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis nostrum, libero vitae quia nihil perferendis consequatur recusandae.</p>
@@ -96,12 +105,10 @@
                         <a href="/blog-detals.html" class="text-orange">Read more</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 col-sm-12 mt-2 mt-md-0">
-                <div class="card p-0 m-0">
+                <div class="card p-0 mt-2">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
-                    <div class="content mt-2">
+                    <div class="content mt-2 p-3">
                         <div class="type text-orange fs-14">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
                         <div class="h5 mt-2"><a href="/blog-detals.html" class="text-dark">What have happend to all web design ideals</a></div>
                         <p class="mt-2 fs-14 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis nostrum, libero vitae quia nihil perferendis consequatur recusandae.</p>
@@ -109,36 +116,10 @@
                         <a href="/blog-detals.html" class="text-orange">Read more</a>
                     </div>
                 </div>
+                
             </div>
-
-            <div class="col-md-4 col-sm-12 mt-2 mt-md-4">
-                <div class="card p-0 m-0">
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
-                    <div class="content mt-2">
-                        <div class="type text-orange fs-14">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
-                        <div class="h5 mt-2"><a href="/blog-detals.html" class="text-dark">What have happend to all web design ideals</a></div>
-                        <p class="mt-2 fs-14 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis nostrum, libero vitae quia nihil perferendis consequatur recusandae.</p>
-
-                        <a href="/blog-detals.html" class="text-orange">Read more</a>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="col-md-4 col-sm-12 mt-2 mt-md-4">
-                <div class="card p-0 m-0">
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D" alt="">
-                    <div class="content mt-2">
-                        <div class="type text-orange fs-14">Event - <span class="text-gray" id="date"> 12th Mar 2025</span></div>
-                        <div class="h5 mt-2"><a href="/blog-detals.html" class="text-dark">What have happend to all web design ideals</a></div>
-                        <p class="mt-2 fs-14 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis nostrum, libero vitae quia nihil perferendis consequatur recusandae.</p>
-
-                        <a href="/blog-detals.html" class="text-orange">Read more</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
+
     </section>
 
 
