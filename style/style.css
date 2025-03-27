@@ -423,6 +423,17 @@ body {
   border-radius: 15px;
 }
 
+#team-hold .card {
+  border-radius: 15px;
+}
+#team-hold .card img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 40px);
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 800px) {
   .banner-section {
     height: 550px;
